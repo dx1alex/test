@@ -1,0 +1,259 @@
+```
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Docker related
+**/database/.gitkeep
+**/uploads/.gitkeep
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.ENV.*
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git stamps
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.coverage*
+.venv.bak/
+venv.bak/
+env.bak/
+.python-version
+*.so
+.libs/
+.pyre/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# Directories created by the Django framework
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Local configuration file (sdk storage, logs)
+.strongloop
+.loopback
+.config
+.nodemonconfig
+.coafile
+.nyc_output
+.next
+.nuxt
+.platform-native
+.sanity
+.sendgrid
+.serverless
+.svelte-kit
+.staged
+.temp
+.tmp
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+Thumbs.db
+VolumeIcon.icns
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+VolumeIcon.icns
+
+# Build results
+dist/
+build/
+*.min.js
+*.min.css
+coverage/
+.nyc_output/
+coverage-final.json
+public/
+www/
+
+# IDE specific
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Testing
+.rspec
+spec/reports/
+spec/examples.txt
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Debug
+*.stackdump
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.fusebox/
+.parcel-cache
+
+# Bower
+bower_components/
+
+# Grunt
+.grunt
+grunt.js
+
+# Gulp
+.gulp
+gulp-build/
+
+# Webpack
+webpack-stats.json
+.webpackrc
+
+# Jspm
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+*.njsproj.user
+*.sln
+*.csproj.user
+
+# Browser-sync
+.browser-sync-client/
+bs-config.json
+.browser-sync*
+
+# Sass
+.sass-cache/
+.csscomb.json
+.compass.rb
+.sass-cache
+*.css.map
+*.scss.map
+
+# CodeKit
+.codekit-cache
+.config/codekit*
+
+# Brunch
+.brunch/
+brunch-config.js
+
+# Ember
+.ember-cli
+tmp/
+.ember*
+
+# Vue
+.vuepress/dist
+.vuepress/.cache
+.vuepress/.temp
+
+# React
+.next/
+out/
+dist/
+build/
+*.prod.ts
+*.prod.js
+*.development.*
+
+# Angular
+.angular/
+dist/
+tmp/
+autotest/
+jasmine.json
+.protractor.conf.js
+
+# Ionic
+ionic.config.json
+.io-config.json
+```
